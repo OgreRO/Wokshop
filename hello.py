@@ -1,9 +1,15 @@
+
+#English language
 def hello():
 print("Hello, world!")
 
+#French language
 def french():
 pring("Bonjour!")
 
+#Main function
 def main():
-hello()
+if sys.argv[1] == "fr"
 french()
+or
+hello()
