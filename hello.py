@@ -1,3 +1,4 @@
+import sys
 
 #English language
 def hello():
@@ -9,7 +10,7 @@ pring("Bonjour!")
 
 #Main function
 def main():
-if sys.argv[1] == "fr"
+if sys.argv[1] == "fr":
 french()
-or
+else:
 hello()
