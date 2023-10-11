@@ -8,9 +8,15 @@ print("Hello, world!")
 def french():
 pring("Bonjour!")
 
+#Slovak language
+def slovak():
+pring("Ahoj")
+
 #Main function with if
 def main():
 if sys.argv[1] == "fr":
-french()
+    french()
+else if sys.argv[1] == "sk":
+    slovak()
 else:
-hello()
+    hello()
