@@ -8,7 +8,7 @@ print("Hello, world!")
 def french():
 pring("Bonjour!")
 
-#Main function
+#Main function with if
 def main():
 if sys.argv[1] == "fr":
 french()
